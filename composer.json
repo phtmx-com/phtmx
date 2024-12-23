@@ -1,0 +1,27 @@
+{
+  "name": "phtmx/phtmx",
+  "description": "Core library for PHTMX project",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Phtmx\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Phtmx\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Martin Krizan",
+      "email": "mnohosten@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^11.5",
+    "symfony/var-dumper": "^7.2"
+  }
+}
