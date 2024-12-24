@@ -1,8 +1,6 @@
-<html>
-    <head>
-        <title>App</title>
-    </head>
-    <body>
-        <?php outlet(); ?>
-    </body>
-</html>
+<?php
+declare(strict_types=1);
+
+use function Phtmx\outlet;
+?>
+<html><body><?php outlet(); ?></body></html>
